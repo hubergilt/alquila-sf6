@@ -7,7 +7,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Table(name: "ambientes")]
+#[ORM\Table(name: "alquiladb.ambientes")]
 #[ORM\Entity(repositoryClass: AmbienteRepository::class)]
 class Ambiente
 {

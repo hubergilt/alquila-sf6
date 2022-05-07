@@ -5,7 +5,7 @@ namespace App\Entity;
 use App\Repository\DepositoRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Table(name: "depositos")]
+#[ORM\Table(name: "alquiladb.depositos")]
 #[ORM\Entity(repositoryClass: DepositoRepository::class)]
 class Deposito
 {
