@@ -39,6 +39,7 @@ security:
         - { path: ^/arrendatario, roles: ROLE_USER }
         - { path: ^/ambiente, roles: ROLE_USER }
         - { path: ^/deposito, roles: ROLE_USER }
+        - { path: ^/register, roles: ROLE_USER }
 
 when@test:
     security:
